@@ -1,0 +1,83 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #111;
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Neon Text Effects */
+.neon-text {
+    color: #00e6e6;
+    text-shadow: 0 0 10px #00e6e6, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00bcd4;
+}
+
+.neon-subtitle {
+    color: #00bcd4;
+    text-shadow: 0 0 5px #00bcd4, 0 0 10px #00e6e6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #000911, #26ba48, #003f7f);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+}
+
+.glow {
+    color: #ff66ff;
+    text-shadow: 0 0 5px #ff66ff, 0 0 15px #ff99ff, 0 0 30px #ffccff;
+}
+
+/* About Section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Glow Cards */
+.glow-card {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    border: 1px solid #00e6e6;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 230, 230, 0.5);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.glow-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00bcd4;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, #000, #222);
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    border-top: 1px solid #444;
+}
+
+.footer-text {
+    text-shadow: 0 0 5px #00bcd4;
+}
